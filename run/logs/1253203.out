@@ -1,0 +1,414 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/TIM_barrel.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/TIM_barrel.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     TIM_barrel.aln           3   428   428     0.38  0.587 
+
+# CPU time: 0.28u 0.00s 00:00:00.28 Elapsed: 00:00:00.28
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta_propeller.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Beta_propeller.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Beta_propeller.aln       2   654   654     0.46  0.588 
+
+# CPU time: 0.40u 0.00s 00:00:00.40 Elapsed: 00:00:00.40
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Acyl-CoA_desat.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Acyl-CoA_desat.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Acyl-CoA_desat.aln       4   385   382     0.62  0.589 
+
+# CPU time: 0.25u 0.00s 00:00:00.25 Elapsed: 00:00:00.25
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Cytochrome-c.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Cytochrome-c.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Cytochrome-c.aln         3   725   680     0.56  0.589 
+
+# CPU time: 0.45u 0.00s 00:00:00.45 Elapsed: 00:00:00.45
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Di-copper.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Di-copper.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Di-copper.aln            2   733   733     0.59  0.588 
+
+# CPU time: 0.45u 0.00s 00:00:00.45 Elapsed: 00:00:00.45
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Globin.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Globin.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Globin.aln               6   445   398     0.92  0.589 
+
+# CPU time: 0.28u 0.00s 00:00:00.28 Elapsed: 00:00:00.28
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/GH_CE.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/GH_CE.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     GH_CE.aln                2   508   508     0.71  0.592 
+
+# CPU time: 0.31u 0.00s 00:00:00.31 Elapsed: 00:00:00.31
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peptidase_PA.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Peptidase_PA.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Peptidase_PA.aln         5   283   236     1.09  0.590 
+
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.16
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NTF2.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NTF2.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NTF2.aln                 2   154   154     0.39  0.587 
+
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/CU_oxidase.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/CU_oxidase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     CU_oxidase.aln           5   642   483     0.93  0.588 
+
+# CPU time: 0.32u 0.00s 00:00:00.32 Elapsed: 00:00:00.32
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peroxidase.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Peroxidase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Peroxidase.aln           2   387   387     0.41  0.594 
+
+# CPU time: 0.24u 0.00s 00:00:00.24 Elapsed: 00:00:00.24
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NADP_Rossmann.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NADP_Rossmann.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NADP_Rossmann.aln        3   613   260     0.69  0.588 
+
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.17
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/ISP-domain.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/ISP-domain.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     ISP-domain.aln           2   413   413     0.38  0.588 
+
+# CPU time: 0.26u 0.00s 00:00:00.26 Elapsed: 00:00:00.25
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Omega_toxin.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Omega_toxin.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Omega_toxin.aln          6   454   454     0.38  0.590 
+
+# CPU time: 0.31u 0.00s 00:00:00.31 Elapsed: 00:00:00.32
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/E-set.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/E-set.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     E-set.aln               12   662   497     0.91  0.591 
+
+# CPU time: 0.37u 0.00s 00:00:00.37 Elapsed: 00:00:00.37
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/FAD_PCMH.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/FAD_PCMH.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     FAD_PCMH.aln             2   448   448     0.37  0.585 
+
+# CPU time: 0.28u 0.00s 00:00:00.28 Elapsed: 00:00:00.28
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/AB_hydrolase.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/AB_hydrolase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     AB_hydrolase.aln       556  2761   334    21.39  0.590 
+
+# CPU time: 0.37u 0.01s 00:00:00.38 Elapsed: 00:00:00.38
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/6_Hairpin.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/6_Hairpin.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     6_Hairpin.aln            3   714   714     0.39  0.588 
+
+# CPU time: 0.47u 0.00s 00:00:00.47 Elapsed: 00:00:00.47
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Iso_DH.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Iso_DH.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Iso_DH.aln               2   315   315     0.40  0.589 
+
+# CPU time: 0.20u 0.00s 00:00:00.20 Elapsed: 00:00:00.20
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/beta_Roll.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/beta_Roll.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     beta_Roll.aln           10   633   617     0.65  0.589 
+
+# CPU time: 0.43u 0.00s 00:00:00.43 Elapsed: 00:00:00.43
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NAD_Ferredoxin.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NAD_Ferredoxin.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NAD_Ferredoxin.aln       2   336   336     0.39  0.589 
+
+# CPU time: 0.21u 0.00s 00:00:00.21 Elapsed: 00:00:00.21
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/DmpA_ArgJ.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/DmpA_ArgJ.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     DmpA_ArgJ.aln           23   557   344     1.89  0.589 
+
+# CPU time: 0.27u 0.01s 00:00:00.28 Elapsed: 00:00:00.27
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/SGNH_hydrolase.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/SGNH_hydrolase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     SGNH_hydrolase.aln       4   337   201     0.70  0.592 
+
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.14
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta-lactamase.aln.fasta
+# output HMM file:                  /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Beta-lactamase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Beta-lactamase.aln      22   947   431     2.32  0.590 
+
+# CPU time: 0.34u 0.00s 00:00:00.34 Elapsed: 00:00:00.34
+[INFO] Building HMM for family: TIM_barrel
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/TIM_barrel.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/TIM_barrel.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/TIM_barrel.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/TIM_barrel.aln.fasta
+[INFO] Building HMM for family: Beta_propeller
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Beta_propeller.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta_propeller.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Beta_propeller.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta_propeller.aln.fasta
+[INFO] Building HMM for family: Acyl-CoA_desat
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Acyl-CoA_desat.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Acyl-CoA_desat.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Acyl-CoA_desat.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Acyl-CoA_desat.aln.fasta
+[WARN] Family ComplexI-N: <2 sequences, skip HMM build.
+[INFO] Building HMM for family: Cytochrome-c
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Cytochrome-c.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Cytochrome-c.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Cytochrome-c.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Cytochrome-c.aln.fasta
+[INFO] Building HMM for family: Di-copper
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Di-copper.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Di-copper.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Di-copper.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Di-copper.aln.fasta
+[INFO] Building HMM for family: Globin
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Globin.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Globin.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Globin.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Globin.aln.fasta
+[WARN] Family UTRA: <2 sequences, skip HMM build.
+[INFO] Building HMM for family: GH_CE
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/GH_CE.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/GH_CE.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/GH_CE.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/GH_CE.aln.fasta
+[INFO] Building HMM for family: Peptidase_PA
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Peptidase_PA.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peptidase_PA.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Peptidase_PA.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peptidase_PA.aln.fasta
+[WARN] Family ALDH-like: <2 sequences, skip HMM build.
+[WARN] Family Cupin: <2 sequences, skip HMM build.
+[INFO] Building HMM for family: NTF2
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/NTF2.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NTF2.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NTF2.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NTF2.aln.fasta
+[INFO] Building HMM for family: CU_oxidase
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/CU_oxidase.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/CU_oxidase.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/CU_oxidase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/CU_oxidase.aln.fasta
+[INFO] Building HMM for family: Peroxidase
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Peroxidase.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peroxidase.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Peroxidase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Peroxidase.aln.fasta
+[INFO] Building HMM for family: NADP_Rossmann
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/NADP_Rossmann.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NADP_Rossmann.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NADP_Rossmann.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NADP_Rossmann.aln.fasta
+[INFO] Building HMM for family: ISP-domain
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/ISP-domain.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/ISP-domain.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/ISP-domain.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/ISP-domain.aln.fasta
+[INFO] Building HMM for family: Omega_toxin
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Omega_toxin.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Omega_toxin.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Omega_toxin.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Omega_toxin.aln.fasta
+[INFO] Building HMM for family: E-set
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/E-set.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/E-set.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/E-set.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/E-set.aln.fasta
+[INFO] Building HMM for family: FAD_PCMH
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/FAD_PCMH.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/FAD_PCMH.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/FAD_PCMH.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/FAD_PCMH.aln.fasta
+[INFO] Building HMM for family: AB_hydrolase
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/AB_hydrolase.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/AB_hydrolase.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/AB_hydrolase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/AB_hydrolase.aln.fasta
+[INFO] Building HMM for family: 6_Hairpin
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/6_Hairpin.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/6_Hairpin.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/6_Hairpin.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/6_Hairpin.aln.fasta
+[INFO] Building HMM for family: Iso_DH
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Iso_DH.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Iso_DH.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Iso_DH.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Iso_DH.aln.fasta
+[WARN] Family Lysozyme: <2 sequences, skip HMM build.
+[INFO] Building HMM for family: beta_Roll
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/beta_Roll.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/beta_Roll.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/beta_Roll.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/beta_Roll.aln.fasta
+[INFO] Building HMM for family: NAD_Ferredoxin
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/NAD_Ferredoxin.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NAD_Ferredoxin.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/NAD_Ferredoxin.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/NAD_Ferredoxin.aln.fasta
+[INFO] Building HMM for family: DmpA_ArgJ
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/DmpA_ArgJ.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/DmpA_ArgJ.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/DmpA_ArgJ.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/DmpA_ArgJ.aln.fasta
+[INFO] Building HMM for family: SGNH_hydrolase
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/SGNH_hydrolase.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/SGNH_hydrolase.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/SGNH_hydrolase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/SGNH_hydrolase.aln.fasta
+[INFO] Building HMM for family: Beta-lactamase
+$ mafft --thread 4 --anysymbol --auto /gpfs/work/bio/yueqingxing22/igem/HMM/data/families/clan_families/Beta-lactamase.fasta > /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta-lactamase.aln.fasta
+[CMD] hmmbuild /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm/Beta-lactamase.hmm /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments/Beta-lactamase.aln.fasta
+[OK] Built 24 HMMs into /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/hmm (MSA in /gpfs/work/bio/yueqingxing22/igem/HMM/hmm_profiles/clan_families/alignments). No combined.hmm generated.

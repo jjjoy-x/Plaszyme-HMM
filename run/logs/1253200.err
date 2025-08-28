@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/scripts/functional_annotator.py", line 336, in <module>
+    main()
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/scripts/functional_annotator.py", line 333, in main
+    args.func(args)
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/scripts/functional_annotator.py", line 261, in cmd_searchdb
+    for hmm_name, p in dom_paths:
+ValueError: too many values to unpack (expected 2)

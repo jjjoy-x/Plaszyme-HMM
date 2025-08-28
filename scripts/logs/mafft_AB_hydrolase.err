@@ -1,0 +1,1186 @@
+inputfile = orig
+556 x 914 - 129 p
+nthread = 4
+nthreadpair = 4
+nthreadtb = 4
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 4 ambiguous characters.
+
+    1 / 556 (thread    0)
+  101 / 556 (thread    1)
+  201 / 556 (thread    2)
+  301 / 556 (thread    1)
+  401 / 556 (thread    3)
+  501 / 556 (thread    1)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+
+    0 / 556
+   10 / 556
+   20 / 556
+   30 / 556
+   40 / 556
+   50 / 556
+   60 / 556
+   70 / 556
+   80 / 556
+   90 / 556
+  100 / 556
+  110 / 556
+  120 / 556
+  130 / 556
+  140 / 556
+  150 / 556
+  160 / 556
+  170 / 556
+  180 / 556
+  190 / 556
+  200 / 556
+  210 / 556
+  220 / 556
+  230 / 556
+  240 / 556
+  250 / 556
+  260 / 556
+  270 / 556
+  280 / 556
+  290 / 556
+  300 / 556
+  310 / 556
+  320 / 556
+  330 / 556
+  340 / 556
+  350 / 556
+  360 / 556
+  370 / 556
+  380 / 556
+  390 / 556
+  400 / 556
+  410 / 556
+  420 / 556
+  430 / 556
+  440 / 556
+  450 / 556
+  460 / 556
+  470 / 556
+  480 / 556
+  490 / 556
+  500 / 556
+  510 / 556
+  520 / 556
+  530 / 556
+  540 / 556
+  550 / 556
+done.
+
+Progressive alignment 1/2... 
+
+STEP     1 / 555 (thread    0) f
+STEP     2 / 555 (thread    1) f
+STEP     3 / 555 (thread    2) f
+STEP     4 / 555 (thread    3) f
+STEP     5 / 555 (thread    0) f
+STEP     8 / 555 (thread    3) f
+STEP     9 / 555 (thread    3) f
+STEP    10 / 555 (thread    0) f
+STEP    11 / 555 (thread    3) f
+STEP    12 / 555 (thread    3) f
+STEP     6 / 555 (thread    1) f
+STEP    14 / 555 (thread    3) f
+STEP    15 / 555 (thread    3) f
+STEP    16 / 555 (thread    1) f
+STEP     7 / 555 (thread    2) f
+STEP    18 / 555 (thread    1) f
+STEP    19 / 555 (thread    1) f
+STEP    20 / 555 (thread    2) f
+STEP    13 / 555 (thread    0) f
+STEP    17 / 555 (thread    3) f
+STEP    21 / 555 (thread    1) f
+STEP    25 / 555 (thread    1) f
+STEP    26 / 555 (thread    1) f
+STEP    22 / 555 (thread    2) f
+STEP    27 / 555 (thread    2) f
+STEP    23 / 555 (thread    0) f
+STEP    29 / 555 (thread    0) f
+STEP    30 / 555 (thread    2) f
+STEP    24 / 555 (thread    3) f
+STEP    31 / 555 (thread    0) f
+STEP    28 / 555 (thread    1) f
+STEP    34 / 555 (thread    0) f
+STEP    35 / 555 (thread    1) f
+STEP    32 / 555 (thread    2) f
+STEP    37 / 555 (thread    1) f
+STEP    38 / 555 (thread    1) f
+STEP    39 / 555 (thread    2) f
+STEP    33 / 555 (thread    3) f
+STEP    36 / 555 (thread    0) f
+STEP    40 / 555 (thread    1) f
+STEP    41 / 555 (thread    2) f
+STEP    42 / 555 (thread    3)
+STEP    45 / 555 (thread    2) f f
+STEP    46 / 555 (thread    2) f
+STEP    47 / 555 (thread    2) f
+STEP    48 / 555 (thread    3) f
+STEP    49 / 555 (thread    2) f
+STEP    50 / 555 (thread    3) f
+STEP    43 / 555 (thread    0) f
+STEP    53 / 555 (thread    0) f
+STEP    51 / 555 (thread    2) f
+STEP    54 / 555 (thread    0) f
+STEP    52 / 555 (thread    3) f
+STEP    56 / 555 (thread    0) f
+STEP    55 / 555 (thread    2) f
+STEP    44 / 555 (thread    1) f
+STEP    59 / 555 (thread    2) f
+STEP    57 / 555 (thread    3) f
+STEP    60 / 555 (thread    1) f
+STEP    58 / 555 (thread    0) f
+STEP    61 / 555 (thread    2) f
+STEP    64 / 555 (thread    0) f
+STEP    65 / 555 (thread    2) f
+STEP    66 / 555 (thread    0) f
+STEP    67 / 555 (thread    0) f
+STEP    62 / 555 (thread    3) f
+STEP    68 / 555 (thread    2) f
+STEP    63 / 555 (thread    1) f
+STEP    71 / 555 (thread    2) f
+STEP    72 / 555 (thread    1) f
+STEP    73 / 555 (thread    2) f
+STEP    69 / 555 (thread    0) f
+STEP    74 / 555 (thread    1) f
+STEP    70 / 555 (thread    3) f
+STEP    77 / 555 (thread    1) f
+STEP    75 / 555 (thread    2) f
+STEP    78 / 555 (thread    3) f
+STEP    76 / 555 (thread    0) f
+STEP    82 / 555 (thread    3) f
+STEP    79 / 555 (thread    1) f
+STEP    83 / 555 (thread    3) f
+STEP    84 / 555 (thread    1) f
+STEP    80 / 555 (thread    2) f
+STEP    81 / 555 (thread    0) f
+STEP    88 / 555 (thread    0) f
+STEP    89 / 555 (thread    0) f
+STEP    90 / 555 (thread    0) f
+STEP    91 / 555 (thread    0) f
+STEP    92 / 555 (thread    0) f
+STEP    93 / 555 (thread    0) f
+STEP    94 / 555 (thread    0) f
+STEP    95 / 555 (thread    0) f
+STEP    96 / 555 (thread    0) f
+STEP    97 / 555 (thread    0) f
+STEP    85 / 555 (thread    3) f
+STEP    86 / 555 (thread    2) f
+STEP    98 / 555 (thread    3) f
+STEP    87 / 555 (thread    1) f
+STEP   101 / 555 (thread    1) f
+STEP    99 / 555 (thread    0) f
+STEP   104 / 555 (thread    0) f
+STEP   102 / 555 (thread    3) f
+STEP   105 / 555 (thread    0) f
+STEP   106 / 555 (thread    3) f
+STEP   107 / 555 (thread    0) f
+STEP   103 / 555 (thread    1) f
+STEP   108 / 555 (thread    1) f
+STEP   100 / 555 (thread    2) f
+STEP   109 / 555 (thread    3) f
+STEP   110 / 555 (thread    0) f
+STEP   111 / 555 (thread    1) f
+STEP   112 / 555 (thread    2) f
+STEP   113 / 555 (thread    3) f
+STEP   116 / 555 (thread    2) f
+STEP   117 / 555 (thread    2) f
+STEP   118 / 555 (thread    2) f
+STEP   119 / 555 (thread    3) f
+STEP   120 / 555 (thread    3) f
+STEP   121 / 555 (thread    2) f
+STEP   122 / 555 (thread    2) f
+STEP   123 / 555 (thread    3) f
+STEP   124 / 555 (thread    3) f
+STEP   125 / 555 (thread    2) f
+STEP   114 / 555 (thread    0) f
+STEP   127 / 555 (thread    0) f
+STEP   128 / 555 (thread    2) f
+STEP   126 / 555 (thread    3) f
+STEP   129 / 555 (thread    2) f
+STEP   130 / 555 (thread    3) f
+STEP   131 / 555 (thread    3) f
+STEP   115 / 555 (thread    1) f
+STEP   133 / 555 (thread    3) f
+STEP   134 / 555 (thread    3) f
+STEP   132 / 555 (thread    2) f
+STEP   135 / 555 (thread    1) f
+STEP   136 / 555 (thread    3) f
+STEP   137 / 555 (thread    0) f
+STEP   138 / 555 (thread    2) f
+STEP   142 / 555 (thread    2) f
+STEP   143 / 555 (thread    2) f
+STEP   144 / 555 (thread    2) f
+STEP   145 / 555 (thread    2) f
+STEP   146 / 555 (thread    2) f
+STEP   147 / 555 (thread    2) f
+STEP   148 / 555 (thread    2) f
+STEP   149 / 555 (thread    2) f
+STEP   150 / 555 (thread    2) f
+STEP   151 / 555 (thread    2) f
+STEP   152 / 555 (thread    2) f
+STEP   153 / 555 (thread    2) f
+STEP   139 / 555 (thread    1) f
+STEP   154 / 555 (thread    2) f
+STEP   155 / 555 (thread    2) f
+STEP   156 / 555 (thread    1) f
+STEP   140 / 555 (thread    3) f
+STEP   157 / 555 (thread    2) f
+STEP   159 / 555 (thread    2) f
+STEP   160 / 555 (thread    3) f
+STEP   158 / 555 (thread    1) f
+STEP   161 / 555 (thread    3) f
+STEP   164 / 555 (thread    3) f
+STEP   162 / 555 (thread    2) f
+STEP   165 / 555 (thread    3) f
+STEP   163 / 555 (thread    1) f
+STEP   167 / 555 (thread    3) f
+STEP   166 / 555 (thread    2) f
+STEP   169 / 555 (thread    3) f
+STEP   168 / 555 (thread    1) f
+STEP   170 / 555 (thread    3) f
+STEP   171 / 555 (thread    3) f
+STEP   172 / 555 (thread    1) f
+STEP   173 / 555 (thread    2) f
+STEP   175 / 555 (thread    3) f
+STEP   176 / 555 (thread    3) f
+STEP   177 / 555 (thread    3) f
+STEP   174 / 555 (thread    1) f
+STEP   178 / 555 (thread    2) f
+STEP   141 / 555 (thread    0) f
+STEP   180 / 555 (thread    1) f
+STEP   181 / 555 (thread    0) f
+STEP   182 / 555 (thread    2) f
+STEP   179 / 555 (thread    3) f
+STEP   183 / 555 (thread    1) f
+STEP   186 / 555 (thread    1) f
+STEP   184 / 555 (thread    0) f
+STEP   187 / 555 (thread    3) f
+STEP   189 / 555 (thread    0) f
+STEP   190 / 555 (thread    0) f
+STEP   191 / 555 (thread    3) f
+STEP   188 / 555 (thread    1) f
+STEP   185 / 555 (thread    2) f
+STEP   192 / 555 (thread    3) f
+STEP   194 / 555 (thread    0) f
+STEP   195 / 555 (thread    0) f
+STEP   197 / 555 (thread    3) f
+STEP   193 / 555 (thread    2) f
+STEP   198 / 555 (thread    3) f
+STEP   199 / 555 (thread    0) f
+STEP   196 / 555 (thread    1) f
+STEP   200 / 555 (thread    0) f
+STEP   201 / 555 (thread    3) f
+STEP   203 / 555 (thread    3) f
+STEP   202 / 555 (thread    2) f
+STEP   206 / 555 (thread    3) f
+STEP   204 / 555 (thread    1) f
+STEP   207 / 555 (thread    2) f
+STEP   209 / 555 (thread    1) f
+STEP   205 / 555 (thread    0) f
+STEP   210 / 555 (thread    2) f
+STEP   208 / 555 (thread    3) f
+STEP   211 / 555 (thread    1) f
+STEP   213 / 555 (thread    0) f
+STEP   214 / 555 (thread    3) f
+STEP   216 / 555 (thread    1) f
+STEP   212 / 555 (thread    2) f
+STEP   217 / 555 (thread    3) f
+STEP   215 / 555 (thread    0) f
+STEP   218 / 555 (thread    1) f
+STEP   220 / 555 (thread    0) f
+STEP   221 / 555 (thread    2) f
+STEP   219 / 555 (thread    3) f
+STEP   223 / 555 (thread    0) f
+STEP   224 / 555 (thread    2) f
+STEP   222 / 555 (thread    1) f
+STEP   226 / 555 (thread    2) f
+STEP   225 / 555 (thread    0) f
+STEP   227 / 555 (thread    3) f
+STEP   229 / 555 (thread    3) f
+STEP   228 / 555 (thread    1) f
+STEP   230 / 555 (thread    3) f
+STEP   232 / 555 (thread    0) f
+STEP   233 / 555 (thread    3) f
+STEP   231 / 555 (thread    2) f
+STEP   234 / 555 (thread    0) f
+STEP   238 / 555 (thread    0) f
+STEP   235 / 555 (thread    1) f
+STEP   239 / 555 (thread    0) f
+STEP   240 / 555 (thread    0) f
+STEP   241 / 555 (thread    0) f
+STEP   242 / 555 (thread    1) f
+STEP   236 / 555 (thread    3) f
+STEP   243 / 555 (thread    0) f
+STEP   244 / 555 (thread    0) f
+STEP   245 / 555 (thread    1) f
+STEP   246 / 555 (thread    0) f
+STEP   247 / 555 (thread    1) f
+STEP   248 / 555 (thread    0) f
+STEP   249 / 555 (thread    0) f
+STEP   251 / 555 (thread    3) f
+STEP   237 / 555 (thread    2) f
+STEP   252 / 555 (thread    0) f
+STEP   250 / 555 (thread    1) f
+STEP   253 / 555 (thread    3) f
+STEP   255 / 555 (thread    3) f
+STEP   254 / 555 (thread    0) f
+STEP   257 / 555 (thread    3) f
+STEP   256 / 555 (thread    1) f
+STEP   258 / 555 (thread    3) f
+STEP   259 / 555 (thread    0) f
+STEP   260 / 555 (thread    2) f
+STEP   261 / 555 (thread    3) f
+STEP   262 / 555 (thread    0) f
+STEP   263 / 555 (thread    1) f
+STEP   264 / 555 (thread    3) f
+STEP   265 / 555 (thread    2) f
+STEP   266 / 555 (thread    0) f
+STEP   268 / 555 (thread    3) f
+STEP   269 / 555 (thread    2) f
+STEP   270 / 555 (thread    0) f
+STEP   267 / 555 (thread    1) f
+STEP   271 / 555 (thread    3) f
+STEP   272 / 555 (thread    2) f
+STEP   273 / 555 (thread    0) f
+STEP   274 / 555 (thread    3) f
+STEP   275 / 555 (thread    2) f
+STEP   276 / 555 (thread    0) f
+STEP   277 / 555 (thread    1) f
+STEP   278 / 555 (thread    3) f
+STEP   279 / 555 (thread    2) f
+STEP   280 / 555 (thread    0) f
+STEP   281 / 555 (thread    1) f
+STEP   282 / 555 (thread    0) f
+STEP   283 / 555 (thread    3) f
+STEP   284 / 555 (thread    2) f
+STEP   285 / 555 (thread    3) f
+STEP   286 / 555 (thread    1) f
+STEP   287 / 555 (thread    2) f
+STEP   288 / 555 (thread    3) f
+STEP   289 / 555 (thread    0) f
+STEP   290 / 555 (thread    3) f
+STEP   291 / 555 (thread    2) f
+STEP   292 / 555 (thread    1) f
+STEP   293 / 555 (thread    0) f
+STEP   294 / 555 (thread    2) f
+STEP   296 / 555 (thread    1) f
+STEP   295 / 555 (thread    3) f
+STEP   298 / 555 (thread    2) f
+STEP   299 / 555 (thread    1) f
+STEP   300 / 555 (thread    3) f
+STEP   297 / 555 (thread    0) f
+STEP   301 / 555 (thread    2) f
+STEP   303 / 555 (thread    0) f
+STEP   304 / 555 (thread    3) f
+STEP   302 / 555 (thread    1) f
+STEP   305 / 555 (thread    2) f
+STEP   306 / 555 (thread    0) f
+STEP   307 / 555 (thread    3) f
+STEP   308 / 555 (thread    0) f
+STEP   310 / 555 (thread    1) f
+STEP   309 / 555 (thread    2) f
+STEP   311 / 555 (thread    3) f
+STEP   312 / 555 (thread    0) f
+STEP   313 / 555 (thread    3) f
+STEP   315 / 555 (thread    2) f
+STEP   314 / 555 (thread    1) f
+STEP   317 / 555 (thread    3) f
+STEP   318 / 555 (thread    2) f
+STEP   319 / 555 (thread    1) f
+STEP   316 / 555 (thread    0) f
+STEP   320 / 555 (thread    3) f
+STEP   321 / 555 (thread    2) f
+STEP   322 / 555 (thread    3) f
+STEP   323 / 555 (thread    1) f
+STEP   324 / 555 (thread    0) f
+STEP   325 / 555 (thread    3) f
+STEP   326 / 555 (thread    1) f
+STEP   327 / 555 (thread    2) f
+STEP   329 / 555 (thread    2) f
+STEP   330 / 555 (thread    0) f
+STEP   328 / 555 (thread    3) f
+STEP   331 / 555 (thread    1) f
+STEP   333 / 555 (thread    0) f
+STEP   334 / 555 (thread    0) f
+STEP   335 / 555 (thread    3) f
+STEP   336 / 555 (thread    1) f
+STEP   332 / 555 (thread    2) f
+STEP   339 / 555 (thread    3) f
+STEP   337 / 555 (thread    0) f
+STEP   340 / 555 (thread    2) f
+STEP   341 / 555 (thread    3) f
+STEP   338 / 555 (thread    1) f
+STEP   344 / 555 (thread    3) f
+STEP   345 / 555 (thread    3) f
+STEP   342 / 555 (thread    2) f
+STEP   347 / 555 (thread    3) f
+STEP   348 / 555 (thread    3) f
+STEP   343 / 555 (thread    0) f
+STEP   349 / 555 (thread    2) f
+STEP   350 / 555 (thread    3) f
+STEP   351 / 555 (thread    2) f
+STEP   346 / 555 (thread    1) f
+STEP   353 / 555 (thread    2) f
+STEP   354 / 555 (thread    1) f
+STEP   352 / 555 (thread    0) f
+STEP   356 / 555 (thread    3) f
+STEP   357 / 555 (thread    1) f
+STEP   358 / 555 (thread    3) f
+STEP   359 / 555 (thread    1) f
+STEP   360 / 555 (thread    0) f
+STEP   355 / 555 (thread    2) f
+STEP   361 / 555 (thread    3) f
+STEP   364 / 555 (thread    2) f
+STEP   365 / 555 (thread    2) f
+STEP   362 / 555 (thread    1) f
+STEP   366 / 555 (thread    3) f
+STEP   367 / 555 (thread    2) f
+STEP   368 / 555 (thread    3) f
+STEP   363 / 555 (thread    0) f
+STEP   369 / 555 (thread    1) f
+STEP   370 / 555 (thread    1) f
+STEP   372 / 555 (thread    3) f
+STEP   371 / 555 (thread    2) f
+STEP   374 / 555 (thread    0) f
+STEP   375 / 555 (thread    2) f
+STEP   376 / 555 (thread    1) f
+STEP   373 / 555 (thread    3) f
+STEP   377 / 555 (thread    0) f
+STEP   379 / 555 (thread    0) f
+STEP   380 / 555 (thread    1) f
+STEP   381 / 555 (thread    3) f
+STEP   378 / 555 (thread    2) f
+STEP   383 / 555 (thread    1) f
+STEP   384 / 555 (thread    3) f
+STEP   382 / 555 (thread    0) f
+STEP   385 / 555 (thread    2) f
+STEP   386 / 555 (thread    1) f
+STEP   387 / 555 (thread    3) f
+STEP   388 / 555 (thread    2) f
+STEP   389 / 555 (thread    0) f
+STEP   390 / 555 (thread    3) f
+STEP   391 / 555 (thread    1) f
+STEP   392 / 555 (thread    2) f
+STEP   393 / 555 (thread    1) f
+STEP   394 / 555 (thread    1) f
+STEP   395 / 555 (thread    0) f
+STEP   396 / 555 (thread    1) f
+STEP   397 / 555 (thread    0) f
+STEP   398 / 555 (thread    2) f
+STEP   400 / 555 (thread    2) f
+STEP   399 / 555 (thread    3) f
+STEP   401 / 555 (thread    0) f
+STEP   402 / 555 (thread    1) f
+STEP   404 / 555 (thread    3) f
+STEP   405 / 555 (thread    1) f
+STEP   406 / 555 (thread    0) f
+STEP   403 / 555 (thread    2) f
+STEP   407 / 555 (thread    0) f
+STEP   410 / 555 (thread    2) f
+STEP   409 / 555 (thread    3) f
+STEP   408 / 555 (thread    1) f
+STEP   413 / 555 (thread    1) f
+STEP   412 / 555 (thread    3) f
+STEP   414 / 555 (thread    1) f
+STEP   415 / 555 (thread    3) f
+STEP   411 / 555 (thread    0) f
+STEP   416 / 555 (thread    2) f
+STEP   417 / 555 (thread    1) f
+STEP   418 / 555 (thread    3) f
+STEP   419 / 555 (thread    0) f
+STEP   420 / 555 (thread    1) f
+STEP   422 / 555 (thread    3) f
+STEP   421 / 555 (thread    2) f
+STEP   423 / 555 (thread    1) f
+STEP   424 / 555 (thread    3) f
+STEP   427 / 555 (thread    3) f
+STEP   426 / 555 (thread    0) f
+STEP   425 / 555 (thread    2) f
+STEP   429 / 555 (thread    3) f
+STEP   428 / 555 (thread    1) f
+STEP   430 / 555 (thread    0) f
+STEP   431 / 555 (thread    2) f
+STEP   432 / 555 (thread    3) f
+STEP   434 / 555 (thread    0) f
+STEP   433 / 555 (thread    2) f
+STEP   436 / 555 (thread    1) f
+STEP   439 / 555 (thread    2) f
+STEP   435 / 555 (thread    3) f
+STEP   441 / 555 (thread    3) f
+STEP   437 / 555 (thread    0) f
+STEP   442 / 555 (thread    3) f
+STEP   438 / 555 (thread    1) f
+STEP   444 / 555 (thread    3) f
+STEP   445 / 555 (thread    3) f
+STEP   446 / 555 (thread    1) f
+STEP   440 / 555 (thread    2) f
+STEP   448 / 555 (thread    2) f
+STEP   443 / 555 (thread    0) f
+STEP   449 / 555 (thread    3) f
+STEP   450 / 555 (thread    2) f
+STEP   451 / 555 (thread    2) f
+STEP   447 / 555 (thread    1) f
+STEP   452 / 555 (thread    0) f
+STEP   454 / 555 (thread    3) f
+STEP   453 / 555 (thread    2) f
+STEP   455 / 555 (thread    1) f
+STEP   457 / 555 (thread    3) f
+STEP   458 / 555 (thread    3) f
+STEP   456 / 555 (thread    0) f
+STEP   461 / 555 (thread    1) f
+STEP   462 / 555 (thread    0) f
+STEP   459 / 555 (thread    3) f
+STEP   464 / 555 (thread    0) f
+STEP   460 / 555 (thread    2) f
+STEP   465 / 555 (thread    3) f
+STEP   466 / 555 (thread    2) f
+STEP   463 / 555 (thread    1) f
+STEP   467 / 555 (thread    3) f
+STEP   469 / 555 (thread    2) f
+STEP   471 / 555 (thread    3) f
+STEP   468 / 555 (thread    0) f
+STEP   473 / 555 (thread    0) f
+STEP   470 / 555 (thread    2) f
+STEP   474 / 555 (thread    3) f
+STEP   475 / 555 (thread    3) f
+STEP   476 / 555 (thread    0) f
+STEP   472 / 555 (thread    1) f
+STEP   478 / 555 (thread    0) f
+STEP   477 / 555 (thread    2) f
+STEP   481 / 555 (thread    3) f
+STEP   479 / 555 (thread    1) f
+STEP   482 / 555 (thread    3) f
+STEP   480 / 555 (thread    0) f
+STEP   484 / 555 (thread    3) f
+STEP   483 / 555 (thread    2) f
+STEP   486 / 555 (thread    3) f
+Reallocating..done. *alloclen = 3094
+
+STEP   485 / 555 (thread    2) f
+STEP   489 / 555 (thread    0) f
+STEP   490 / 555 (thread    0) f
+STEP   491 / 555 (thread    0) f
+STEP   492 / 555 (thread    0) f
+STEP   494 / 555 (thread    2) f
+STEP   487 / 555 (thread    3) f
+STEP   495 / 555 (thread    2) f
+STEP   488 / 555 (thread    1) f
+STEP   493 / 555 (thread    0) f
+STEP   499 / 555 (thread    0) f
+STEP   496 / 555 (thread    2) f
+STEP   500 / 555 (thread    0) f
+STEP   497 / 555 (thread    3) f
+STEP   498 / 555 (thread    1) f
+STEP   501 / 555 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+
+    0 / 556 (thread    0)
+  100 / 556 (thread    2)
+  200 / 556 (thread    2)
+  300 / 556 (thread    3)
+  400 / 556 (thread    1)
+  500 / 556 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+
+    0 / 556
+   10 / 556
+   20 / 556
+   30 / 556
+   40 / 556
+   50 / 556
+   60 / 556
+   70 / 556
+   80 / 556
+   90 / 556
+  100 / 556
+  110 / 556
+  120 / 556
+  130 / 556
+  140 / 556
+  150 / 556
+  160 / 556
+  170 / 556
+  180 / 556
+  190 / 556
+  200 / 556
+  210 / 556
+  220 / 556
+  230 / 556
+  240 / 556
+  250 / 556
+  260 / 556
+  270 / 556
+  280 / 556
+  290 / 556
+  300 / 556
+  310 / 556
+  320 / 556
+  330 / 556
+  340 / 556
+  350 / 556
+  360 / 556
+  370 / 556
+  380 / 556
+  390 / 556
+  400 / 556
+  410 / 556
+  420 / 556
+  430 / 556
+  440 / 556
+  450 / 556
+  460 / 556
+  470 / 556
+  480 / 556
+  490 / 556
+  500 / 556
+  510 / 556
+  520 / 556
+  530 / 556
+  540 / 556
+  550 / 556
+done.
+
+Progressive alignment 2/2... 
+
+STEP     1 / 555 (thread    0) f
+STEP     2 / 555 (thread    1) f
+STEP     3 / 555 (thread    2) f
+STEP     4 / 555 (thread    3) f
+STEP     5 / 555 (thread    0) f
+STEP     8 / 555 (thread    3) f
+STEP     9 / 555 (thread    3) f
+STEP     6 / 555 (thread    1) f
+STEP    11 / 555 (thread    3) f
+STEP    10 / 555 (thread    0) f
+STEP     7 / 555 (thread    2) f
+STEP    12 / 555 (thread    1) f
+STEP    14 / 555 (thread    0) f
+STEP    16 / 555 (thread    1) f
+STEP    13 / 555 (thread    3) f
+STEP    15 / 555 (thread    2) f
+STEP    18 / 555 (thread    2) f
+STEP    19 / 555 (thread    1) f
+STEP    17 / 555 (thread    0) f
+STEP    20 / 555 (thread    3) f
+STEP    21 / 555 (thread    1) f
+STEP    25 / 555 (thread    1)
+STEP    22 / 555 (thread    3) f f
+STEP    26 / 555 (thread    1) f
+STEP    23 / 555 (thread    2) f
+STEP    27 / 555 (thread    3) f
+STEP    29 / 555 (thread    2) f
+STEP    24 / 555 (thread    0) f
+STEP    30 / 555 (thread    2) f
+STEP    28 / 555 (thread    1) f
+STEP    31 / 555 (thread    3) f
+STEP    34 / 555 (thread    1) f
+STEP    35 / 555 (thread    1) f
+STEP    36 / 555 (thread    3) f
+STEP    32 / 555 (thread    0) f
+STEP    37 / 555 (thread    3) f
+STEP    38 / 555 (thread    1) f
+STEP    40 / 555 (thread    0) f
+STEP    33 / 555 (thread    2) f
+STEP    41 / 555 (thread    1) f
+STEP    39 / 555 (thread    3) f
+STEP    42 / 555 (thread    0) f
+STEP    43 / 555 (thread    0) f
+STEP    44 / 555 (thread    1) f
+STEP    45 / 555 (thread    0) f
+STEP    48 / 555 (thread    2) f
+STEP    49 / 555 (thread    2) f
+STEP    46 / 555 (thread    3) f
+STEP    51 / 555 (thread    2) f
+STEP    50 / 555 (thread    0) f
+STEP    47 / 555 (thread    1) f
+STEP    52 / 555 (thread    3) f
+STEP    54 / 555 (thread    0) f
+STEP    55 / 555 (thread    1) f
+STEP    53 / 555 (thread    2) f
+STEP    56 / 555 (thread    0) f
+STEP    59 / 555 (thread    2) f
+STEP    60 / 555 (thread    2) f
+STEP    61 / 555 (thread    0) f
+STEP    57 / 555 (thread    3) f
+STEP    62 / 555 (thread    2) f
+STEP    58 / 555 (thread    1) f
+STEP    63 / 555 (thread    0) f
+STEP    66 / 555 (thread    1) f
+STEP    64 / 555 (thread    3) f
+STEP    67 / 555 (thread    0) f
+STEP    65 / 555 (thread    2) f
+STEP    68 / 555 (thread    1) f
+STEP    72 / 555 (thread    1) f
+STEP    69 / 555 (thread    3) f
+STEP    73 / 555 (thread    1) f
+STEP    70 / 555 (thread    0) f
+STEP    74 / 555 (thread    3) f
+STEP    71 / 555 (thread    2) f
+STEP    77 / 555 (thread    3) f
+STEP    75 / 555 (thread    1) f
+STEP    78 / 555 (thread    2) f
+STEP    76 / 555 (thread    0) f
+STEP    79 / 555 (thread    3) f
+STEP    83 / 555 (thread    3) f
+STEP    80 / 555 (thread    1) f
+STEP    84 / 555 (thread    3) f
+STEP    81 / 555 (thread    2) f
+STEP    86 / 555 (thread    3) f
+STEP    85 / 555 (thread    1) f
+STEP    87 / 555 (thread    3) f
+STEP    88 / 555 (thread    3) f
+STEP    89 / 555 (thread    2) f
+STEP    82 / 555 (thread    0) f
+STEP    90 / 555 (thread    1) f
+STEP    91 / 555 (thread    3) f
+STEP    95 / 555 (thread    3) f
+STEP    92 / 555 (thread    2) f
+STEP    96 / 555 (thread    3) f
+STEP    97 / 555 (thread    3) f
+STEP    98 / 555 (thread    2) f
+STEP    93 / 555 (thread    0) f
+STEP   100 / 555 (thread    2) f
+STEP    99 / 555 (thread    3) f
+STEP   101 / 555 (thread    2) f
+STEP    94 / 555 (thread    1) f
+STEP   104 / 555 (thread    2) f
+STEP   102 / 555 (thread    3) f
+STEP   105 / 555 (thread    2) f
+STEP   106 / 555 (thread    2) f
+STEP   107 / 555 (thread    3) f
+STEP   103 / 555 (thread    0) f
+STEP   109 / 555 (thread    3) f
+STEP   108 / 555 (thread    1) f
+STEP   111 / 555 (thread    3) f
+STEP   110 / 555 (thread    2) f
+STEP   112 / 555 (thread    0) f
+STEP   115 / 555 (thread    2) f
+STEP   117 / 555 (thread    2) f
+STEP   116 / 555 (thread    0) f
+STEP   113 / 555 (thread    3) f
+STEP   118 / 555 (thread    2) f
+STEP   119 / 555 (thread    0) f
+STEP   120 / 555 (thread    3) f
+STEP   114 / 555 (thread    1) f
+STEP   123 / 555 (thread    3) f
+STEP   121 / 555 (thread    2) f
+STEP   124 / 555 (thread    3) f
+STEP   122 / 555 (thread    0) f
+STEP   127 / 555 (thread    3) f
+STEP   125 / 555 (thread    1) f
+STEP   128 / 555 (thread    3) f
+STEP   129 / 555 (thread    0) f
+STEP   130 / 555 (thread    0) f
+STEP   131 / 555 (thread    1) f
+STEP   126 / 555 (thread    2) f
+STEP   134 / 555 (thread    1) f
+STEP   132 / 555 (thread    0) f
+STEP   135 / 555 (thread    1) f
+STEP   136 / 555 (thread    0) f
+STEP   133 / 555 (thread    3) f
+STEP   137 / 555 (thread    2) f
+STEP   139 / 555 (thread    0) f
+STEP   140 / 555 (thread    2) f
+STEP   138 / 555 (thread    1) f
+STEP   142 / 555 (thread    2) f
+STEP   141 / 555 (thread    3) f
+STEP   143 / 555 (thread    0) f
+STEP   145 / 555 (thread    1) f
+STEP   147 / 555 (thread    1) f
+STEP   146 / 555 (thread    3) f
+STEP   148 / 555 (thread    1) f
+STEP   149 / 555 (thread    1) f
+STEP   144 / 555 (thread    2) f
+STEP   152 / 555 (thread    1) f
+STEP   150 / 555 (thread    0) f
+STEP   153 / 555 (thread    1) f
+STEP   154 / 555 (thread    1) f
+STEP   151 / 555 (thread    3) f
+STEP   157 / 555 (thread    1) f
+STEP   155 / 555 (thread    2) f
+STEP   158 / 555 (thread    1) f
+STEP   159 / 555 (thread    1) f
+STEP   156 / 555 (thread    0) f
+STEP   160 / 555 (thread    3) f
+STEP   163 / 555 (thread    3) f
+STEP   161 / 555 (thread    2) f
+STEP   164 / 555 (thread    0) f
+STEP   166 / 555 (thread    2) f
+STEP   162 / 555 (thread    1) f
+STEP   167 / 555 (thread    2) f
+STEP   168 / 555 (thread    1) f
+STEP   169 / 555 (thread    1) f
+STEP   171 / 555 (thread    0) f
+STEP   165 / 555 (thread    3) f
+STEP   172 / 555 (thread    0) f
+STEP   170 / 555 (thread    2) f
+STEP   174 / 555 (thread    0) f
+STEP   173 / 555 (thread    1) f
+STEP   175 / 555 (thread    0) f
+STEP   176 / 555 (thread    3) f
+STEP   177 / 555 (thread    3) f
+STEP   178 / 555 (thread    1) f
+STEP   180 / 555 (thread    1) f
+STEP   179 / 555 (thread    2) f
+STEP   181 / 555 (thread    0) f
+STEP   182 / 555 (thread    1) f
+STEP   184 / 555 (thread    3) f
+STEP   186 / 555 (thread    1) f
+STEP   183 / 555 (thread    0) f
+STEP   187 / 555 (thread    3) f
+STEP   185 / 555 (thread    2) f
+STEP   188 / 555 (thread    1) f
+STEP   189 / 555 (thread    3) f
+STEP   190 / 555 (thread    0) f
+STEP   192 / 555 (thread    3) f
+STEP   193 / 555 (thread    2) f
+STEP   194 / 555 (thread    0) f
+STEP   191 / 555 (thread    1) f
+STEP   195 / 555 (thread    3) f
+STEP   196 / 555 (thread    2) f
+STEP   197 / 555 (thread    0) f
+STEP   198 / 555 (thread    3) f
+STEP   200 / 555 (thread    1) f
+STEP   201 / 555 (thread    3) f
+STEP   199 / 555 (thread    2) f
+STEP   202 / 555 (thread    1) f
+STEP   203 / 555 (thread    0) f
+STEP   206 / 555 (thread    0) f
+STEP   204 / 555 (thread    1) f
+STEP   207 / 555 (thread    2) f
+STEP   208 / 555 (thread    0) f
+STEP   209 / 555 (thread    2) f
+STEP   210 / 555 (thread    0) f
+STEP   211 / 555 (thread    2) f
+STEP   212 / 555 (thread    0) f
+STEP   213 / 555 (thread    1) f
+STEP   205 / 555 (thread    3) f
+STEP   214 / 555 (thread    2) f
+STEP   215 / 555 (thread    0) f
+STEP   216 / 555 (thread    1) f
+STEP   217 / 555 (thread    2) f
+STEP   218 / 555 (thread    0) f
+STEP   219 / 555 (thread    2) f
+STEP   221 / 555 (thread    1) f
+STEP   222 / 555 (thread    2) f
+STEP   220 / 555 (thread    0) f
+STEP   223 / 555 (thread    1) f
+STEP   224 / 555 (thread    2) f
+STEP   225 / 555 (thread    3) f
+STEP   226 / 555 (thread    1) f
+STEP   227 / 555 (thread    1) f
+STEP   228 / 555 (thread    0) f
+STEP   229 / 555 (thread    2) f
+STEP   230 / 555 (thread    3) f
+STEP   231 / 555 (thread    0) f
+STEP   232 / 555 (thread    2) f
+STEP   233 / 555 (thread    3) f
+STEP   234 / 555 (thread    0) f
+STEP   235 / 555 (thread    2) f
+STEP   236 / 555 (thread    1) f
+STEP   237 / 555 (thread    3) f
+STEP   238 / 555 (thread    0) f
+STEP   240 / 555 (thread    1) f
+STEP   241 / 555 (thread    3) f
+STEP   242 / 555 (thread    0) f
+STEP   239 / 555 (thread    2) f
+STEP   243 / 555 (thread    1) f
+STEP   244 / 555 (thread    3) f
+STEP   245 / 555 (thread    1) f
+STEP   246 / 555 (thread    0) f
+STEP   247 / 555 (thread    2) f
+STEP   248 / 555 (thread    1) f
+STEP   249 / 555 (thread    3) f
+STEP   250 / 555 (thread    1) f
+STEP   251 / 555 (thread    0) f
+STEP   252 / 555 (thread    3) f
+STEP   253 / 555 (thread    1) f
+STEP   254 / 555 (thread    0) f
+STEP   255 / 555 (thread    2) f
+STEP   256 / 555 (thread    3) f
+STEP   257 / 555 (thread    0) f
+STEP   259 / 555 (thread    2) f
+STEP   260 / 555 (thread    1) f
+STEP   261 / 555 (thread    0) f
+STEP   258 / 555 (thread    3) f
+STEP   262 / 555 (thread    2) f
+STEP   263 / 555 (thread    1) f
+STEP   264 / 555 (thread    3) f
+STEP   265 / 555 (thread    0) f
+STEP   266 / 555 (thread    2) f
+STEP   267 / 555 (thread    1) f
+STEP   268 / 555 (thread    0) f
+STEP   269 / 555 (thread    3) f
+STEP   270 / 555 (thread    2) f
+STEP   271 / 555 (thread    0) f
+STEP   272 / 555 (thread    1) f
+STEP   273 / 555 (thread    1) f
+STEP   274 / 555 (thread    0) f
+STEP   275 / 555 (thread    3) f
+STEP   276 / 555 (thread    1) f
+STEP   277 / 555 (thread    2) f
+STEP   278 / 555 (thread    3) f
+STEP   279 / 555 (thread    0) f
+STEP   281 / 555 (thread    3) f
+STEP   282 / 555 (thread    2) f
+STEP   283 / 555 (thread    3) f
+STEP   280 / 555 (thread    1) f
+STEP   284 / 555 (thread    0) f
+STEP   286 / 555 (thread    3) f
+STEP   287 / 555 (thread    1) f
+STEP   288 / 555 (thread    0) f
+STEP   285 / 555 (thread    2) f
+STEP   289 / 555 (thread    3) f
+STEP   291 / 555 (thread    1) f
+STEP   290 / 555 (thread    0) f
+STEP   292 / 555 (thread    3) f
+STEP   293 / 555 (thread    2) f
+STEP   295 / 555 (thread    1) f
+STEP   296 / 555 (thread    3) f
+STEP   297 / 555 (thread    0) f
+STEP   294 / 555 (thread    2) f
+STEP   298 / 555 (thread    1) f
+STEP   299 / 555 (thread    1) f
+STEP   300 / 555 (thread    3) f
+STEP   301 / 555 (thread    0) f
+STEP   302 / 555 (thread    1) f
+STEP   304 / 555 (thread    2) f
+STEP   303 / 555 (thread    0) f
+STEP   305 / 555 (thread    1) f
+STEP   306 / 555 (thread    3) f
+STEP   307 / 555 (thread    2) f
+STEP   308 / 555 (thread    1) f
+STEP   309 / 555 (thread    3) f
+STEP   310 / 555 (thread    0) f
+STEP   311 / 555 (thread    1) f
+STEP   313 / 555 (thread    0) f
+STEP   312 / 555 (thread    3) f
+STEP   314 / 555 (thread    2) f
+STEP   315 / 555 (thread    1) f
+STEP   316 / 555 (thread    3) f
+STEP   317 / 555 (thread    0) f
+STEP   318 / 555 (thread    2) f
+STEP   319 / 555 (thread    3) f
+STEP   320 / 555 (thread    1) f
+STEP   321 / 555 (thread    0) f
+STEP   323 / 555 (thread    2) f
+STEP   322 / 555 (thread    3) f
+STEP   324 / 555 (thread    1) f
+STEP   325 / 555 (thread    0) f
+STEP   326 / 555 (thread    1) f
+STEP   327 / 555 (thread    0) f
+STEP   328 / 555 (thread    3) f
+STEP   329 / 555 (thread    1) f
+STEP   330 / 555 (thread    2) f
+STEP   331 / 555 (thread    0) f
+STEP   332 / 555 (thread    3) f
+STEP   333 / 555 (thread    2) f
+STEP   334 / 555 (thread    1) f
+STEP   335 / 555 (thread    0) f
+STEP   336 / 555 (thread    3) f
+STEP   337 / 555 (thread    3) f
+STEP   340 / 555 (thread    0) f
+STEP   338 / 555 (thread    1) f
+STEP   341 / 555 (thread    3) f
+STEP   339 / 555 (thread    2) f
+STEP   342 / 555 (thread    0) f
+STEP   343 / 555 (thread    3) f
+STEP   345 / 555 (thread    2) f
+STEP   344 / 555 (thread    1) f
+STEP   346 / 555 (thread    3) f
+STEP   347 / 555 (thread    0) f
+STEP   350 / 555 (thread    3) f
+STEP   348 / 555 (thread    0) f
+STEP   351 / 555 (thread    1) f
+STEP   352 / 555 (thread    1) f
+STEP   353 / 555 (thread    1) f
+STEP   354 / 555 (thread    3) f
+STEP   355 / 555 (thread    0) f
+STEP   349 / 555 (thread    2) f
+STEP   356 / 555 (thread    0) f
+STEP   357 / 555 (thread    3) f
+STEP   358 / 555 (thread    0) f
+STEP   360 / 555 (thread    2) f
+STEP   359 / 555 (thread    1) f
+STEP   361 / 555 (thread    3) f
+STEP   364 / 555 (thread    3) f
+STEP   362 / 555 (thread    0) f
+STEP   365 / 555 (thread    1) f
+STEP   366 / 555 (thread    3) f
+STEP   367 / 555 (thread    1) f
+STEP   368 / 555 (thread    3) f
+STEP   369 / 555 (thread    0) f
+STEP   363 / 555 (thread    2) f
+STEP   370 / 555 (thread    3) f
+STEP   371 / 555 (thread    1) f
+STEP   372 / 555 (thread    0) f
+STEP   373 / 555 (thread    1) f
+STEP   374 / 555 (thread    3) f
+STEP   375 / 555 (thread    0) f
+STEP   376 / 555 (thread    2) f
+STEP   377 / 555 (thread    3) f
+STEP   378 / 555 (thread    0) f
+STEP   379 / 555 (thread    2) f
+STEP   380 / 555 (thread    1) f
+STEP   381 / 555 (thread    3) f
+STEP   382 / 555 (thread    2) f
+STEP   384 / 555 (thread    3) f
+STEP   385 / 555 (thread    2) f
+STEP   386 / 555 (thread    0) f
+STEP   383 / 555 (thread    1) f
+STEP   387 / 555 (thread    3) f
+STEP   388 / 555 (thread    0) f
+STEP   389 / 555 (thread    0) f
+STEP   390 / 555 (thread    2) f
+STEP   391 / 555 (thread    3) f
+STEP   392 / 555 (thread    1) f
+STEP   393 / 555 (thread    2) f
+STEP   394 / 555 (thread    0) f
+STEP   395 / 555 (thread    2) f
+STEP   396 / 555 (thread    1) f
+STEP   397 / 555 (thread    1) f
+STEP   398 / 555 (thread    2) f
+STEP   399 / 555 (thread    0) f
+STEP   400 / 555 (thread    3) f
+STEP   401 / 555 (thread    0) f
+STEP   402 / 555 (thread    1) f
+STEP   403 / 555 (thread    2) f
+STEP   404 / 555 (thread    1) f
+STEP   405 / 555 (thread    3) f
+STEP   406 / 555 (thread    0) f
+STEP   407 / 555 (thread    2) f
+STEP   408 / 555 (thread    1) f
+STEP   409 / 555 (thread    0) f
+STEP   410 / 555 (thread    3) f
+STEP   411 / 555 (thread    1) f
+STEP   412 / 555 (thread    3) f
+STEP   414 / 555 (thread    2) f
+STEP   415 / 555 (thread    3) f
+STEP   416 / 555 (thread    2) f
+STEP   417 / 555 (thread    1) f
+STEP   413 / 555 (thread    0) f
+STEP   419 / 555 (thread    3) f
+STEP   418 / 555 (thread    2) f
+STEP   421 / 555 (thread    1) f
+STEP   420 / 555 (thread    0) f
+STEP   424 / 555 (thread    1) f
+STEP   422 / 555 (thread    2) f
+STEP   426 / 555 (thread    0) f
+STEP   427 / 555 (thread    0) f
+STEP   423 / 555 (thread    3) f
+STEP   429 / 555 (thread    2) f
+STEP   431 / 555 (thread    3) f
+STEP   425 / 555 (thread    1) f
+STEP   432 / 555 (thread    3) f
+STEP   428 / 555 (thread    0) f
+STEP   433 / 555 (thread    1) f
+STEP   434 / 555 (thread    3) f
+STEP   436 / 555 (thread    0) f
+STEP   430 / 555 (thread    2) f
+STEP   437 / 555 (thread    3) f
+STEP   439 / 555 (thread    3) f
+STEP   440 / 555 (thread    3) f
+STEP   441 / 555 (thread    2) f
+STEP   435 / 555 (thread    1) f
+STEP   442 / 555 (thread    3) f
+STEP   438 / 555 (thread    0) f
+STEP   444 / 555 (thread    1) f
+STEP   446 / 555 (thread    1) f
+STEP   447 / 555 (thread    1) f
+STEP   443 / 555 (thread    3) f
+STEP   449 / 555 (thread    1) f
+STEP   450 / 555 (thread    1) f
+STEP   445 / 555 (thread    2) f
+STEP   451 / 555 (thread    3) f
+STEP   452 / 555 (thread    1) f
+STEP   453 / 555 (thread    1) f
+STEP   448 / 555 (thread    0) f
+STEP   454 / 555 (thread    2) f
+STEP   457 / 555 (thread    1) f
+STEP   455 / 555 (thread    3) f
+STEP   456 / 555 (thread    2) f
+STEP   458 / 555 (thread    0) f
+STEP   461 / 555 (thread    2) f
+STEP   459 / 555 (thread    3) f
+STEP   462 / 555 (thread    0) f
+STEP   460 / 555 (thread    1) f
+STEP   463 / 555 (thread    3) f
+STEP   465 / 555 (thread    0) f
+STEP   464 / 555 (thread    2) f
+STEP   466 / 555 (thread    1) f
+STEP   468 / 555 (thread    0) f
+STEP   469 / 555 (thread    2) f
+STEP   467 / 555 (thread    3) f
+STEP   471 / 555 (thread    1) f
+STEP   472 / 555 (thread    2) f
+STEP   473 / 555 (thread    2) f
+STEP   470 / 555 (thread    0) f
+STEP   475 / 555 (thread    1) f
+STEP   476 / 555 (thread    2) f
+STEP   477 / 555 (thread    0) f
+STEP   474 / 555 (thread    3) f
+STEP   478 / 555 (thread    2) f
+STEP   479 / 555 (thread    2) f
+STEP   480 / 555 (thread    1) f
+STEP   482 / 555 (thread    3) f
+STEP   481 / 555 (thread    0) f
+STEP   483 / 555 (thread    1) f
+STEP   485 / 555 (thread    1) f
+STEP   486 / 555 (thread    2) f
+STEP   484 / 555 (thread    3) f
+STEP   487 / 555 (thread    1) f
+STEP   488 / 555 (thread    0) f
+STEP   489 / 555 (thread    2) f
+STEP   490 / 555 (thread    2) f
+STEP   493 / 555 (thread    2) f
+STEP   494 / 555 (thread    0) f
+STEP   491 / 555 (thread    1) f
+STEP   495 / 555 (thread    1) f
+STEP   492 / 555 (thread    3) f
+STEP   496 / 555 (thread    2) f
+STEP   497 / 555 (thread    1) f
+STEP   498 / 555 (thread    0) f
+STEP   499 / 555 (thread    1) f
+STEP   500 / 555 (thread    3) f
+STEP   501 / 555 (thread    1) f
+Reallocating..done. *alloclen = 2925
+
+Reallocating..done. *alloclen = 4170
+
+done.
+
+disttbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+4 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

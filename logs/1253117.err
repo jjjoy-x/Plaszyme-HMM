@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/functional_annotator.py", line 160, in <module>
+    args.func(args)
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/functional_annotator.py", line 144, in <lambda>
+    p2.set_defaults(func=lambda args: annotate_unknown(
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/functional_annotator.py", line 85, in annotate_unknown
+    df = parse_domtblout(dom)
+  File "/gpfs/work/bio/yueqingxing22/igem/HMM/functional_annotator.py", line 29, in parse_domtblout
+    df = pd.read_csv(path, comment="#", delim_whitespace=True, header=None)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1234, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/gpfs/spack/opt/linux-rocky8-icelake/gcc-8.5.0/anaconda3-2022.10-4dp3trddxrrzcg6rozuot7ckgh3zjche/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 75, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 551, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
