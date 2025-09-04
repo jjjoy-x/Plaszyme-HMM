@@ -1,6 +1,6 @@
-# Functional Annotator (MAFFT + HMMER)
+# Functional Annotator (Prodigal + MAFFT + HMMER)
 
-A lightweight, reproducible pipeline for **protein functional annotation** using **Multiple Sequence Alignment (MAFFT)** and **profile HMMs (HMMER)**.
+A lightweight, reproducible pipeline for **protein functional annotation** using **Prodigal**,**Multiple Sequence Alignment (MAFFT)** and **profile HMMs (HMMER)**.
 
 ---
 
@@ -22,7 +22,9 @@ functional_annotator/
 ├─ scripts/
 │  └─ functional_annotator.py         # main pipeline (MAFFT + HMMER)
 ├─ run/
-   ├─ logs/                            # Slurm logs
+│  ├─ logs/                            # Slurm logs
+│  ├─ run_annotation_dna.sh            # annotate unknown sequences with hmmscan (use DNA sequences)
+│  ├─ run_searchdb_dna.sh              # search a downloaded DB with hmmsearch (use DNA sequences)
 │  ├─ run_build_hmm.sh                 # build per-family HMMs and combined DB
 │  ├─ run_annotation.sh                # annotate unknown sequences with hmmscan
 │  └─ run_searchdb.sh                  # search a downloaded DB with hmmsearch
@@ -98,6 +100,24 @@ sbatch run_annotation.sh
 ```bash
 cd ../HMM_functional_annotator/run
 sbatch run_annotation.sh
+
+```
+
+### 4) Annotate unknown proteins with the HMM DB (use DNA sequences)
+
+```bash
+cd ../HMM_functional_annotator/run
+sbatch run_annotation_dna.sh
+
+```
+
+---
+
+### 5) Search a downloaded protein database with your HMMs (use DNA sequences)
+
+```bash
+cd ../HMM_functional_annotator/run
+sbatch run_annotation_dna.sh
 
 ```
 
