@@ -3,7 +3,7 @@ import subprocess
 import sys
 import shutil
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 import pandas as pd
 
 # Utility functions
@@ -27,11 +27,32 @@ def fasta_count_headers(fasta: Path) -> int:
                 n += 1
     return n
 
+# Prodigal integration (DNA -> Protein)
+
+def prodigal_predict_proteins(dna_fasta: Path, out_dir: Path, genetic_code: int = 11, mode: str = "meta") -> Path:
+    check_bin("prodigal", "Install Prodigal: conda install -c bioconda prodigal")
+    ensuredir(out_dir)
+    stem = Path(dna_fasta).stem
+    out_prot = out_dir / f"{stem}.prodigal.proteins.faa"
+    out_cds = out_dir / f"{stem}.prodigal.cds.fna"
+    out_gff = out_dir / f"{stem}.prodigal.gff"
+    cmd = (
+        f"prodigal -i {dna_fasta} -a {out_prot} -d {out_cds} "
+        f"-o {out_gff} -f gff -p {mode} -g {genetic_code}"
+    )
+    run(cmd)
+    print(f"[Prodigal] proteins: {out_prot} | cds: {out_cds} | gff: {out_gff}")
+    return out_prot
+
 # MAFFT + HMMER Build
 
 def align_fasta(in_fasta: Path, out_aln: Path, threads: int = 8, err_dir: Path = Path("logs")):
     ensuredir(err_dir)
     err_log = err_dir / f"mafft_{in_fasta.stem}.err"
+
+    nseq = fasta_count_headers(in_fasta)
+    alg = "--auto" if nseq > 3 else "--globalpair --maxiterate 1000"
+
     cmd = ["mafft", "--thread", str(threads), "--anysymbol", "--auto", str(in_fasta)]
     print("$", " ".join(cmd), f"> {out_aln}")
     with open(out_aln, "w") as fo:
@@ -190,11 +211,21 @@ def cmd_annotate(args):
     threads = args.threads
     ensuredir(out_dir)
 
+    if getattr(args, "is_dna", False):
+        translated = prodigal_predict_proteins(
+            dna_fasta=unknown_fasta,
+            out_dir=out_dir,
+            genetic_code=args.genetic_code,
+            mode=args.prodigal_mode
+        )
+        unknown_fasta = translated
+        print(f"[INFO] DNA translated by Prodigal -> {unknown_fasta}")
+    
     hmm_list = sorted(hmm_dir.glob("*.hmm")) 
     if not hmm_list: 
         sys.exit(f"[ERROR] No .hmm files found in {hmm_dir}")
 
-    dom_paths = []
+    dom_paths: List[Tuple[str, Path, Path]] = []
     for hmm in hmm_list:
         print(f"[INFO] hmmsearch: {hmm.name} vs {unknown_fasta.name}")
         sub_dir = out_dir / hmm.stem
@@ -216,6 +247,9 @@ def cmd_annotate(args):
         if not df.empty:
             df["hmm_file"] = hmm_name
             frames.append(df)
+            (out_dir / Path(hmm_name).stem).mkdir(parents=True, exist_ok=True)
+            df.to_csv((out_dir / Path(hmm_name).stem / f"{Path(hmm_name).stem}__all_hits_enhanced.tsv"),
+                      sep=" ", index=False)
             
     merged = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
     
@@ -231,6 +265,7 @@ def cmd_annotate(args):
                             sep="\t", index=False)
     best = best_hit_per_query(filt)
     
+    merged.to_csv(out_dir / "annotation_report__all_hits_enhanced.tsv", sep=" ", index=False)
     filt.to_csv(out_dir / "annotation_report__dom_hits.tsv", sep="\t", index=False)
     best.to_csv(out_dir / "annotation_report__best.tsv", sep="\t", index=False)
     print(f"Annotation finished. TSV results saved in: {out_dir}")
@@ -240,6 +275,16 @@ def cmd_searchdb(args):
     seq_db = Path(args.seq_db)
     out_dir = Path(args.out_dir)
     ensuredir(out_dir)
+
+    if getattr(args, "seq_db_is_dna", False):
+        translated = prodigal_predict_proteins(
+            dna_fasta=seq_db,
+            out_dir=out_dir,
+            genetic_code=args.genetic_code,
+            mode=args.prodigal_mode
+        )
+        seq_db = translated
+        print(f"[INFO] DNA DB translated by Prodigal -> {seq_db}")
 
     hmm_list: List[Path] = []
     if args.hmm:
@@ -269,7 +314,6 @@ def cmd_searchdb(args):
                       sep="\t", index=False)
 
     merged = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
-
     filt = filter_hits(merged, iE=args.iE, bits=args.bits, qcov=args.qcov) if not merged.empty else merged
     best = best_hit_per_query(filt) if not filt.empty else filt
 
@@ -281,6 +325,7 @@ def cmd_searchdb(args):
             best_one = best_hit_per_query(group)
             best_one.to_csv(sub_dir / f"{hmm_name}__best.tsv", sep="\t", index=False)
 
+    merged.to_csv(out_dir / "searchdb_report__all_hits_enhanced.tsv", sep=" ", index=False)
     filt.to_csv(out_dir / "searchdb_report__dom_hits.tsv", sep="\t", index=False)
     best.to_csv(out_dir / "searchdb_report__best.tsv", sep="\t", index=False)
     print(f"[OK] DB search finished. TSV results in: {out_dir}")
@@ -319,6 +364,9 @@ def main():
     p_ann.add_argument("--iE", type=float, default=1e-5)
     p_ann.add_argument("--bits", type=float, default=25.0)
     p_ann.add_argument("--qcov", type=float, default=0.30)
+    p_ann.add_argument("--is_dna", action="store_true", help="Treat --unknown_fasta as DNA; run Prodigal first")
+    p_ann.add_argument("--genetic_code", type=int, default=11, help="NCBI translation table (1=Standard, 11=Bacteria/Archaea)")
+    p_ann.add_argument("--prodigal_mode", choices=["meta","single"], default="meta", help="Prodigal mode: metagenome or single genome")
     p_ann.set_defaults(func=cmd_annotate)
 
     # searchdb
@@ -331,6 +379,9 @@ def main():
     p_sdb.add_argument("--iE", type=float, default=1e-5)
     p_sdb.add_argument("--bits", type=float, default=25.0)
     p_sdb.add_argument("--qcov", type=float, default=0.30)
+    p_sdb.add_argument("--seq_db_is_dna", action="store_true", help="Treat --seq_db as DNA; run Prodigal first")
+    p_sdb.add_argument("--genetic_code", type=int, default=11)
+    p_sdb.add_argument("--prodigal_mode", choices=["meta","single"], default="meta")
     p_sdb.set_defaults(func=cmd_searchdb)
 
     args = p.parse_args()
