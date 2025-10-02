@@ -1,4 +1,11 @@
-# Functional Annotator (Prodigal + MAFFT + HMMER)
+# Plaszyme HMM
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![WebApp](https://img.shields.io/badge/WebApp-Online-brightgreen?)](http://plaszyme.org/plaszyme)
+[![iGEM](https://img.shields.io/badge/iGEM-XJTLU--AI--China-blue?logo=)](https://teams.igem.org/5580)
+[![iGEM GitLab](https://img.shields.io/badge/GitLab-XJTLU--AI--China-orange?logo=gitlab)](https://gitlab.igem.org/2025/software-tools/xjtlu-ai-china)
+
+## Overview
 
 A lightweight, reproducible pipeline for **protein functional annotation** using **Prodigal**,**Multiple Sequence Alignment (MAFFT)** and **profile HMMs (HMMER)**.
 
@@ -134,3 +141,19 @@ sbatch run_annotation_dna.sh
 - Each family FASTA should have **≥2 sequences**; otherwise `hmmbuild` is not meaningful.
 
 ---
+
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- Thanks to the developers of **HMMER**, **MAFFT**, and **Prodigal**, which form the core of this pipeline.  
+- We acknowledge the use of publicly available databases such as **UniProt** and **Pfam**, which provide essential protein family and sequence data.  
+- This project was developed as part of the **iGEM XJTLU-AI-China** team efforts, with contributions from both wet-lab and dry-lab members.  
+- We are grateful to the open-source community for providing the computational biology tools and resources that made this work possible.
+- Inspiration for this work was partly drawn from the **mparty model**, which motivated the design of the functional annotation workflow.   
+- Special thanks to collaborators and advisors who provided feedback and guidance throughout the development of this pipeline.  
