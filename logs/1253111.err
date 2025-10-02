@@ -1,4 +1,0 @@
-usage: functional_annotator build [-h] --families_dir FAMILIES_DIR --aln_dir
-                                  ALN_DIR --hmm_dir HMM_DIR
-                                  [--threads THREADS]
-functional_annotator build: error: the following arguments are required: --families_dir, --hmm_dir
