@@ -1,4 +1,4 @@
-# Plaszyme HMM
+# PlaszymeHMM
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![WebApp](https://img.shields.io/badge/WebApp-Online-brightgreen?)](http://plaszyme.org/plaszyme)
@@ -25,7 +25,7 @@ A lightweight, reproducible pipeline for **protein functional annotation** using
 Recommended project layout (create at any path):
 
 ```
-functional_annotator/
+PlaszymeHMM/
 ├─ scripts/
 │  └─ functional_annotator.py         # main pipeline (MAFFT + HMMER)
 ├─ run/
